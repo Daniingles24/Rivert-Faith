@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>River Faith Lavados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>River Faith Lavados</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="home">
+        <h2>Bienvenidos a River Faith Lavados</h2>
+        <p>Tu auto, nuestro compromiso. Especialistas en lavado y detallado de autos con la mejor calidad.</p>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Lavado Básico</li>
+            <li>Detalles Interiores</li>
+            <li>Pulido y Cera</li>
+            <li>Limpieza de Motor</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Galería -->
+    <section id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-images">
+            <!-- Puedes agregar imágenes aquí -->
+            <img src="auto1.jpg" alt="Auto detallado">
+            <img src="auto2.jpg" alt="Lavado de auto">
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En River Faith Lavados nos dedicamos al cuidado y detallado de tu vehículo con dedicación y profesionalismo. ¡Tu auto es nuestra prioridad!</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="#" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 River Faith Lavados. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
